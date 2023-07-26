@@ -1,0 +1,64 @@
+#hien thi mang
+a = [[i,i*1,i*2] for i in range(5)]
+print(a)
+
+#hien thi cac phan tu trong chuoi
+b = list('afasdgt')
+print(b)
+
+#hien thi phan tu thu 5 trong chuoi
+c = b[5]
+print(c)
+
+#hien thi so lan xuat hien cua 1 phan tu
+a = [1,4,7,3,8,3,6,9]
+c = a.count(5)
+print(c)
+#tra ve vi tri cua phan tu trong mang
+c = a.index(8)
+print(c)
+
+#gan gia tri 
+a = [1,2,3,4,5,6]
+a[0] = 'Vuong'
+print(a)
+
+#xoa cac phan tu trong mang
+c = a.clear()
+print(c)
+
+#them gia tri vao mang (chi mo rong 1 vi tri)
+a = [1,2,3]
+print(a)
+
+a.append([4,5])
+print(a)
+
+#them gia tri vao mang( mo rong nhieu vi tri)
+a = [1,2,3]
+print(a)
+a.extend([4,5])
+print(a)
+
+#ham chenf gtri vao vi tri cu the trong mang
+a = [1,2,3]
+a.insert(2,9)
+print(a)
+
+#ham xoa vi tri trong mang
+a = [1,2,3]
+a.pop(1)
+print(a)
+
+#ham dao cac gtri trong mang theo thu tu nguoc lai
+a = [1,2,3,4]
+a.reverse()
+print(a)
+
+#ham sap xep cac phan tu trong mang theo thu tu lon dan
+a = [7,2,6,2,5,1]
+a.sort()
+print(a)
+#neu muon sap xep theo thu tu nho dan bang cach
+a.sort(reverse = True)
+print(a)
